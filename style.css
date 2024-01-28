@@ -1,0 +1,14 @@
+#first {
+        color:red;
+        font-size: 32px;
+        font-weight: bold
+        font-family verdana;
+}
+.plain{
+    font-size: 32px;
+    background-color: darkblue;
+    color: red
+}
+body{
+    background-color: black;
+}

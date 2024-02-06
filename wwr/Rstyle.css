@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Set max-width for the entire page */
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* Center the content */
+}
+
+/* Center various elements within their parent containers */
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+/* Container for background */
+#background {
+    height: 725px;
+    /* Add background color when required */
+}
+
+/* Set background colors */
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book,
+.join,
+.book:hover,
+.join:hover,
+#background,
+.msg,
+footer {
+    background-color: rgba(20, 30, 13, 0.7)
+}
+
+/* Set foreground colors for better readability */
+nav a,
+nav a:hover,
+.home-title,
+h4,
+.book,
+.join,
+.book:hover,
+.join:hover,
+.msg h2,
+.msg p,
+footer,
+footer a,
+footer a:hover {
+    color: white /* Your chosen color */;
+}
+
+/* Set widths for specific elements */
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Remove default underline from links */
+nav a,
+.book,
+.join,
+footer a {
+    text-decoration: none;
+}
+
+/* Add underline on hover for specific links */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Adjust font size in the footer */
+footer p {
+    font-size: 1.2em;
+}
